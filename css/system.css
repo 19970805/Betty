@@ -1,0 +1,279 @@
+/*基本设置*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,em, img, q, strong,ol,section,
+ ul,li,form, label, table, caption, tbody, tfoot, thead, tr, th, td, footer,header,nav,time{
+	margin: 0;padding: 0;
+}
+footer, header, nav,div {
+	display: block;
+}
+
+/*主体设置*/
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*图像设置*/
+img{
+	border:0
+}
+/*去出下划线*/
+a{
+	text-decoration:none;
+}
+/*去除标签*/
+li,ol,ul {
+	list-style: none;
+}
+
+div.in{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*页眉区*/
+.head{
+    height: 150px;
+    background-color: mistyrose;
+}
+.picture1{
+    margin: 25px 0px 0px 25px;
+    float: left;
+}
+/*搜索区*/
+.head_search{
+    margin-top: 100px;
+    margin-right: 50px;
+    float:right;
+}
+/*输入框*/
+#keyword{
+    background: white;
+    color: rgb(112, 103, 103);
+    border:none;
+    height: 20px;
+    text-indent: 5px;
+}
+/*提交框*/
+td .search{
+    background: url("../image/search.png") no-repeat center;
+    width: 35px;
+    height: 29px;
+    border: none;
+}
+/*导航区*/
+div#naver{
+    height: 50px;
+    background-color: mistyrose;
+}
+div#wrap1{
+    height: 50px;
+    margin：0px;
+    padding: 0px;
+    background-color: rgb(223, 181, 176);
+}
+/*导航区布局结构设置*/
+.wp-nav .nav-item {
+    display:inline-block; 
+    margin-left: 65px;
+    margin-right: 35px;
+    margin-top: 15px;
+    height: 35px;
+	float:left; 
+	position:relative;
+	vertical-align:bottom;
+}
+.wp-nav .nav-item a {
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+.wp-nav li.nav-item a{
+    font-size:16px;
+	font-weight:normal; 
+	color:#fff;
+}
+/*鼠标暂停变色*/
+.wp-nav li.nav-item a:hover{ 
+    color:  rgb(117, 7, 7);
+}
+
+/*容器1*/
+div#content1{
+    height: 564px;
+    background-color: mistyrose;
+}
+/*容器1的子容器1*/
+div#content1 div.in div#cont1_1{
+    height: 564px;
+    background:  url("../image/zhong.jpg") no-repeat center;
+    border: 2px solid white;
+}
+/*容器1里的文字设置*/
+div.title h2{
+    font-family: "Simsun";
+    margin-left: 50px;
+    margin-top: 50px;
+}
+div.title p{
+    font-size: 20px;
+    font-family: "Simsun";
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+/*容器2*/
+div#content2{
+    height: 300px;
+    background-color: mistyrose;
+}
+/*容器2的子容器1*/
+div#content2 div.in div#cont2_1{
+    width: 500px;
+    height:300px;
+    background-color: rgb(240, 221, 219);
+    float:left;
+}
+div#wrap3{
+    width: 500px;
+    height: 285px;
+}
+/*图片和标题设置，应用于cont2_1和cont2_3*/
+.text1{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+/*图像*/
+#pic{
+    width:200px;
+    height: 175px;
+    float:left;
+}
+/*标题*/
+#text1-1{
+    width: auto;
+    height: 175px;
+    float: left;
+}
+#text1-1 p{
+    font-size: 18px;
+    font-family: "SimSun";
+    font-weight: bold;
+    color: rgb(3, 85, 78);
+    line-height: 40px;
+}
+/*段落*/
+#text2{
+    width: 450px;
+    height: 100px;
+    padding: 10px 10px 10px 0px;
+}
+#text2 p{
+    font-family: "SimSun";
+    font-size: 15px;
+    color:rgb(48, 3, 3);
+    line-height:25px; 
+}
+/*容器2的子容器2*/
+div#content2 div.in div#cont2_2{
+    width: 500px;
+    height:300px;
+    background-color: rgb(243, 232, 231);
+    float:left;
+}
+/*问题板块*/
+div#hab{
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 285px;
+    float: left;
+}
+/*标题*/
+.wp-habbit h3{
+    font-family: "SimSun" ;
+    font-size: 20px;
+    color: sienna;
+}
+/*问题*/
+.wp-habbit li.nav_item span{
+    font-size: 18px;
+    font-style: normal;
+    font-family: "SimSun";
+    color: rgb(66, 5, 5);
+    line-height:30px; 
+}
+/*图片板块*/
+div#pic1{
+    width: 175px;
+    height: 300px;
+    float: right;
+}
+
+/*容器3*/
+div#content3{
+    
+    height: 304px;
+    background-color: mistyrose;
+}
+
+/*容器3的子容器1*/
+div#content3 div.in div#cont3_1{
+    width: 499px;
+    height:300px;
+    background-color: rgb(248, 239, 238);
+    float:left;
+    border-top: 2px solid rgb(247, 229, 226);
+}
+
+/*容器3的子容器2*/
+div#content3 div.in div#cont3_2{
+    width: 499px;
+    height:300px;
+    background-color: rgb(248, 242, 241);
+    float:right;
+    border-top: 2px solid rgb(247, 229, 226);
+}
+#wrap6{
+    padding-top: 20px;
+    padding-left: 60px;
+}
+/*标题*/
+.dream h2{
+    font-family: "Simsun";
+    color: slategray;
+    text-align: left;
+}
+/*列表*/
+.dreaming{
+    font-family: "SimSun";
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(97, 7, 85);
+    line-height: 30px;
+    margin-top: 5px;
+}
+/*列表标记*/
+div#wrap6 li{
+    list-style-image: url(../image/duolaAmeng.jpg);
+}
+.text2{
+    font-size: medium;
+    font-family: "Simsun";
+    color: rgb(109, 14, 4);
+    margin-left: 60px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+/*页脚区*/
+.foot{
+    height: 150px;
+    background-color: mistyrose;
+}
+/*标题*/
+#picture2{
+    margin-top: 50px;
+    margin-right: 20px;
+    float: right;
+    background-color: rgb(214, 191, 189);
+}

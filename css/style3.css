@@ -1,0 +1,124 @@
+h1,h2,h3,h4,h5,h6{
+    color: rgb(55, 7, 75);
+    margin: 20px 10px 10px 50px;
+}
+/*搜索框*/
+.head_search tr,.head_search td {
+    border: none;
+    padding: 0px 0px 0px 0px;
+}
+/*容器1*/
+div#content-1{
+    height: 562px;
+    background-color: mistyrose;
+}
+
+/*容器1的子容器1*/
+div#content-1 div.in div#cont1-1{
+    height: 562px;
+    background:  url("../image/shu2.jpg") no-repeat center;
+    border: 2px solid white;
+}
+
+/*容器2*/
+div#content-2{
+    height: 500px;
+    background-color: mistyrose;
+}
+div#content-2 div.in div#wrap-2{
+    height: 500px;
+    background-color: white;
+}
+
+/*容器2的子容器1*/
+div#content-2 div.in div#cont2-1{
+    height: 460px;
+    width: 250px;
+    background: rgb(218, 245, 236);
+    margin: 20px 10px 20px 20px;
+    float: left;
+}
+/*文本设置cont2-1和cont2-2通用*/
+.text-1{
+    margin: 20px 20px 20px 20px;
+}
+/*标题*/
+.text-1 span{
+    font-size: medium;
+    font-family: "Simsun";
+    font-weight: bolder;
+    color: rgb(75, 12, 12);
+    text-align: left;
+    
+}
+/*文本*/
+.text-1 p{
+    font-family: "Simsun";
+    color: rgb(65, 4, 4);
+    line-height: 25px;
+}
+
+/*容器2的子容器2*/
+div#content-2 div.in div#cont2-2{
+    height: 460px;
+    width: 250px;
+    background: rgb(221, 241, 250);
+    margin: 20px 10px 20px 10px;
+    float: left;
+}
+
+/*容器2的子容器3*/
+div#content-2 div.in div#cont2-3{
+    height: 460px;
+    width: 420px;
+    background: rgb(242, 238, 250);
+    margin: 20px 20px 20px 10px;
+    float: right;
+}
+/*表格基本设置*/
+.progress table{
+    margin:20px 20px 20px 20px;
+    border:thin solid rgb(92, 4, 23);
+    border-collapse: collapse;
+}
+.progress td,.progress th,.progress tr{
+    border:thin solid rgb(92, 4, 23);
+    padding: 5px;
+}
+/*标题*/
+.text-2{
+    margin-top: 10px;
+    text-align: center;
+}
+.text-2 span{
+    font-size: medium;
+    font-family: "Simsun";
+    font-weight: bold;
+    color: rgb(49, 2, 31);
+}
+/*表头*/
+.list1{
+    font-size: medium;
+    font-family: "Simsun";
+    color: rgb(65, 4, 4);
+    background-color: rgb(245, 196, 208);
+}
+/*双行设置*/
+.list2{
+    font-size:12px;
+    font-family: "Simsun";
+    color: rgb(63, 7, 7);
+    line-height: 15px;
+    background: rgb(221, 245, 237);
+    padding: 10px 10px 10px 10px;
+}
+/*单行设置*/
+.list3{
+    font-size: 12px;
+    font-family: "Simsun";
+    color: rgb(63, 7, 7);
+    line-height: 15px;
+    background: rgb(247, 226, 230);
+    padding: 10px 10px 10px 10px;
+}
+

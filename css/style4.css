@@ -1,0 +1,152 @@
+
+/*容器1*/
+div#content-1{
+    height: 564px;
+    background-color: mistyrose;
+}
+div#content-1 div.in{
+    background-color: rgb(243, 235, 220);
+}
+
+/*容器1的子容器1*/
+div#content-1 div.in div#cont1-1{
+    height: 560px;
+    background:  url("../image/huaping.jpg") no-repeat center;
+    border: 2px solid white;
+}
+
+/*容器2*/
+div#content-2{
+    height: 500px;
+    background-color: mistyrose;
+}
+div#content-2 div.in{
+    height: 500px;
+    background-color: white;
+}
+div#content-2 div.in {
+    height: 500px;
+    background-color: rgb(231, 209, 181);
+}
+
+/*容器2的子容器1*/
+div#content-2 div.in div#cont2-1{
+    height: 460px;
+    width: 265px;
+    background-color: rgb(238, 223, 206);
+    float: left;
+    margin: 20px 10px 20px 20px;
+}
+section {
+    margin: 20px 20px 20px 20px;
+}
+/*标题*/
+section header h2{
+    font-size: 22px;
+    font-style: oblique;
+    font-family: "Simsun";
+    color: rgb(44, 3, 3);
+    text-align: left;
+}
+/*文本*/
+section p{
+    font-size: 18px;
+    font-style: oblique;
+    font-family: "Simsun";
+    color: rgb(44, 3, 3);
+    text-align: left;
+    line-height: 26px;
+}
+/*日期*/
+section time{
+    font-size: 15px;
+    font-family: "SImsun";
+    color: rgb(44, 3, 3);
+   
+}
+.date{
+    text-align: right;
+    margin-top: 20px;
+}
+
+/*容器2的子容器2*/
+div#content-2 div.in div#cont2-2{
+    height: 460px;
+    width: 675px;
+    background-color: rgb(247, 232, 225);
+    float: right;
+    margin: 20px 20px 20px 10px;
+}
+
+/*容器2的子容器2的子容器1*/
+div#content-2 div.in div#cont2-2 div#cont2-2-1{
+    height: 185px;
+    width: 300px;
+    background-color: rgb(221, 196, 205);
+    float: left;
+    margin:35px 10px 10px 25px;
+}
+.tt{
+    margin: 10px 10px 10px 10px;
+}
+/*图片*/
+#pic{
+    width: 130px;
+    height: 90px;
+    float: left;
+}
+/*标题*/
+#title{
+    width: 150px;
+    height: 60px;
+    float: left;
+    padding-top: 30px;
+}
+#title p{
+    font-size: medium;
+    font-family: "Simsun";
+    font-weight: bold;
+    color: rgb(3, 49, 71);
+    text-align: center;
+}
+/*文本*/
+.text{
+    margin-left:10px ;
+}
+.text p{
+    font-size: 15px;
+    font-family: "Simsun";
+    color: rgb(3, 23, 53);
+    line-height: 18px;
+}
+
+/*容器2的子容器2的子容器2*/
+div#content-2 div.in div#cont2-2 div#cont2-2-2{
+    height: 185px;
+    width: 300px;
+    background-color: rgb(224, 206, 219);
+    float: right;
+    margin:35px 25px 10px 10px;
+
+}
+
+/*容器2的子容器2的子容器3*/
+div#content-2 div.in div#cont2-2 div#cont2-2-3{
+    height: 185px;
+    width: 300px;
+    background-color: rgb(211, 207, 224);
+    float: left;
+    margin:10px 10px 25px 25px;
+
+}
+
+/*容器2的子容器2的子容器4*/
+div#content-2 div.in div#cont2-2 div#cont2-2-4{
+    height: 185px;
+    width: 300px;
+    background-color: rgb(207, 220, 224);
+    float: right;
+    margin:10px 25px 25px 10px;
+}
+
+

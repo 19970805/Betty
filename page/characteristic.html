@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Characteristic</title>
+    <link rel="stylesheet" href="../css/system.css">
+    <link rel="stylesheet" href="../css/style2.css">
+</head>
+<body>
+    <!--页眉区head-->
+    <header class="head">
+        <!--每个区都有一个公共类in放置内容，居中-->
+        <div class="in">
+            <!--图像-->
+            <div class="picture1">
+                <img src="../image/books.jpg" width="200" height="80">
+            </div>
+            <!--搜索框-->
+            <div class="head_search">
+                <table>
+                    <tbody>
+                        <tr>
+                            <!--输入框-->
+                            <td>
+                                <input id="keyword" class="keyword" value="请输入关键字"  type="text" style="width:140px overflow:hidden;">                                        
+                            </td>
+                            <!--提交框-->
+                            <td>
+                                <input name="btnsearch" class="search" type="submit" value="&nbsp;" >
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>  
+        </div>
+    </header>
+    <!--end of head-->
+    <!--导航区-->
+    <div id="naver">
+        <div class="in">
+            <div id="wrap1">
+                <ul class="wp-nav">
+                    <li class="nav-item i1">
+                        <a href="../index.html">Home page</a>
+                    </li>
+                    <li class="nav-item i2">
+                        <a href="resume.html">Individual resume</a>
+                    </li>
+                    <li class="nav-item i3">
+                        <a href="characteristic.html">Characteristic</a>
+                    </li>
+                    <li class="nav-item i4">
+                        <a href="experience.html">Experience</a>
+                    </li>
+                    <li class="nav-item i5">
+                        <a href="target.html">Target</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--end of naver-->
+    <!--容器1只有一个子容器cont1-1里面是一个表单-->
+    <div id="content-1">
+        <div class="in">
+            <!--容器1的子容器-->
+            <div id="cont1-1">
+                <div id="wrap-1">
+                    <h3>My basic message</h3>
+                    <!--分两个fieldsed区域-->
+                    <form>
+                        <!--第一个区域基本上是输入框-->
+                        <fieldset>
+                            <!--legend为区域起标题-->
+                            <legend>message</legend>
+                            <div class="table">
+                                <label for="name">Name:</label>
+                                <input type="text" name="name" value=""> 
+                            </div>
+                            <div class="table">
+                                <label for="age">Age:</label>
+                                <input type="number" name="age" min="0" max="150"> 
+                            </div>
+                            <div class="table">
+                                <label for="birthday">Birthday:</label>
+                                <input type="date" name="birthday"> 
+                            </div>
+                            <div class="table">
+                                <label for="school">School:</label>
+                                <input type="text" name="school" value=""> 
+                            </div>
+                            <div class="table">
+                                <label for="major">Major:</label>
+                                <input type="text" name="major" value=""> 
+                            </div>
+                            <div class="table">
+                                <label for="phone">Phone:</label>
+                                <input type="tel" name="phone" value=""> 
+                            </div>
+                            <div class="table">
+                                <label for="address">Address:</label>
+                                <input type="text" name="address" value=""> 
+                            </div>
+                        </fieldset>
+                        <!--第二个区域基本上是选择框-->
+                        <fieldset>
+                            <!--颜色选择-->
+                            <legend>habbits</legend>
+                            <div class="table1">
+                                <label for="color">Favorite Color:</label>
+                                <input type="color" name="color" value=""> 
+                            </div>
+                            <!--单项选择-->
+                            <div class="table1">
+                                <label>Favorite Star:</label>
+                                <p>
+                                    <input type="radio" name="karry" value=""> 
+                                    <label for="karry">Karry</label><br>
+                                    <input type="radio" name="jackson" value=""> 
+                                    <label for="jackson">Jackson</label><br>
+                                    <input type="radio" name="roy" value=""> 
+                                    <label for="roy">Roy</label>
+                                </p>
+                            </div>
+                            <!--多项选择-->
+                            <div class="table1">
+                                <label>Favorite Sports:</label>
+                                <p>
+                                    <input type="checkbox" name="karry" value=""> 
+                                    <label for="karry">Karry</label><br>
+                                    <input type="checkbox" name="jackson" value=""> 
+                                    <label for="jackson">Jackson</label><br>
+                                    <input type="checkbox" name="jackson" value=""> 
+                                    <label for="jackson">Jackson</label>
+                                </p>
+                            </div>
+                            <!--列表选择-->
+                            <div class="table1">
+                                <label for="beans">Choose your beans:</label>
+                                <select id="beans" name="beans">
+                                    <option value="House Blend">House Blend</option>
+                                    <option value="Bolivia">Shade Grown Bolivia Supremo</option>
+                                    <option value="Guatemala">Organic Guatemala</option>
+                                    <option value="Kenya">Kenya</option>
+                                </select>
+                            </div>
+                        </fieldset>
+                        <!--提交按钮-->
+                        <div class="sub">
+                            <input type="submit" value="submit" >
+                            <input type="reset" value="reset" >
+                        </div>
+                    </form>
+                </div>                
+            </div>
+            <!--end of cont1-1-->
+        </div>
+    </div>
+    <!--end of content-1-->
+    <!--容器2有一个文本容器cont2-1和两个长宽相同的子容器cont2-2和cont2-3-->
+    <div id="content-2">
+        <div class="in">
+            <!--容器2content-2的子容器1cont2-1是文本容器-->
+            <div id="cont2-1">
+                <div id="wrap-2">
+                    <div class="text-1">
+                        <span>Threre are some question waiting for you answer.</span>
+                    </div>
+                </div>
+            </div>
+            <!--end of cont2-1-->
+            <!--容器2content-2的子容器1cont2-2内容是两个问题框-->
+            <div id="cont2-2">
+                <div id="wrap-3">
+                   <!--问题框1-->
+                   <table class="ques1">
+                       <tbody>
+                           <tr>
+                               <td class="ques-text">
+                                Can you tell me something about your hobbies? 
+                               </td>
+                           </tr>
+                           <tr>
+                               <td class="answer">
+                                   <textarea name="answers" rows="7" cols="38">
+                                   </textarea>
+                               </td>
+                           </tr>
+                       </tbody>
+                   </table>
+                    <!--问题框2-->
+                   <table class="ques1">
+                    <tbody>
+                        <tr>
+                            <td class="ques-text">
+                                What are your personal characteristics?
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="answer">
+                                <textarea name="answers" rows="7" cols="38">
+                                </textarea>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div>
+            <!--end of cont2-2-->
+            <!--容器2content-2的子容器1cont2-1内容是一个图片和一个文本-->
+            <div id="cont2-3">
+                <div id="wrap-4">
+                    <!--图片-->
+                    <div class="pic">
+                        <img src="../image/diqiu.jpg" width="460" height="250">
+                    </div>
+                    <!--文本-->
+                    <div class="text-2">
+                        <p>
+                            Everyone is born a different leaf, they have their own unique side, 
+                            their own personality characteristics, who can not be replaced by anyone,
+                            They are the best version of themselves, and we have to believe that one day, 
+                            we will all be who we want to be, and that the future is always bright.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--end of cont2-3-->
+        </div>
+    </div>
+    <!--end of content-2-->
+    <!--页脚区-->
+    <footer class="foot">
+        <div class="in">
+            <!--四个logo图像-->
+            <div id="picture2">
+                <img src="../image/QQ.png" width="35" height="35">
+                <img src="../image/weibo.png" width="35" height="35">
+                <img src="../image/weixing.png" width="35" height="35">
+                <img src="../image/pengyouquan.png" width="35" height="35">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

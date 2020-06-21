@@ -1,0 +1,107 @@
+
+.head_search tr,.head_search td {
+    border: none;
+    padding: 0px 0px 0px 0px;
+}
+/*容器1*/
+div#content-1{
+    height: 562px;
+    background-color: mistyrose;
+}
+/*容器1的子容器1*/
+div#content-1 div.in div#cont1-1{
+    height: 562px;
+    background:  url("../image/erji.jpg") no-repeat center;
+    border: 2px solid white;
+}
+/*文本1*/
+div.title1{
+    margin: 80px 550px 50px 60px;
+}
+.title1 p{
+    font-size: 20px ;
+    font-family: "Simsun";
+    color: rgb(63, 14, 5);
+    text-align: left;
+    line-height: 50px;
+}
+/*文本2*/
+div.title2{
+    margin: 40px 60px 60px 550px;
+}
+.title2 p{
+    font-size: 20px ;
+    font-family: "Simsun";
+    color: rgb(63, 14, 5);
+    text-align: right;
+    line-height: 50px;
+}
+/*容器2*/
+div#content-2{
+    height: 500px;
+    background-color: mistyrose;
+}
+/*容器2的子容器1*/
+div#content-2 div.in div#cont2-1{
+    height: 498px;
+    width: 750px;
+    background-color: rgb(248, 213, 213);
+    float: left;
+    border-top: 2px solid rgb(224, 190, 202);
+}
+/*个人简介页面样式*/
+.introducer table{
+    margin:65px 20px 20px 20px;
+    border:thin solid rgb(92, 4, 23);
+    border-collapse: collapse;
+}
+/*列表标签设置*/
+.introducer td,.introducer th,.introducer tr{
+    border:thin solid rgb(92, 4, 23);
+    padding: 5px;
+}
+/*表格*/
+.list1{
+    font-family: "Simsun";
+    color: rgb(41, 5, 46);
+    font-size: 20px;
+}
+.list2{
+    font-family: "Simsun";
+    font-size: 15px;
+    color: rgb(61, 4, 31);
+    text-align: center;
+}
+.list3{
+    font-family: "Simsun";
+    font-size: 15px;
+    color: rgb(61, 4, 31);
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+.list3 p{
+    line-height: 22px;
+    text-align: left;
+}
+/*容器2的子容器2*/
+div#content-2 div.in div#cont2-2{
+    height: 500px;
+    width: 250px;
+    background-color: rgb(194, 226, 222);
+    float: right;
+}
+/*文本*/
+.textbox-1{
+    height: 240px;
+    padding: 20px 20px 40px 20px;
+}
+.textbox-1 p{
+    font-size: 15px;
+    font-style: italic;
+    font-family: "Simsun";
+    line-height: 25px;
+}
+/*图像*/
+.pic{
+    margin-left: 20px;
+}
